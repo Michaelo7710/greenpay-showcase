@@ -1,0 +1,39 @@
+# Logs & Runtime
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+coverage/
+
+# Environment Variables & Secrets (STRICT ZERO-LEAKAGE)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+keystore*
+service-account*.json
+google-services.json
+credentials.json
+secrets.json
+secrets.yaml
+secrets.yml
+
+# OS & IDE Cache
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
