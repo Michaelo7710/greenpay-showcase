@@ -1,36 +1,35 @@
-# 🌿 GreenPay Enterprise FinTech Architecture Showcase
+# 🌿 GreenPay — Showcase & Studi Kasus Arsitektur Aplikasi E-Wallet
 
 <div align="center">
 
-[![Live Interactive Showcase](https://img.shields.io/badge/Demo-Interactive_Preview-059669?style=flat-square&logo=safari)](https://github.com/Michaelo7710/personal-portfolio-ai)
 [![Platform](https://img.shields.io/badge/Platform-React_Native_•_Node.js-3B82F6?style=flat-square&logo=react)](https://reactnative.dev/)
 [![CI Pipeline](https://img.shields.io/badge/CI%2FCD-100%25_Passing-10B981?style=flat-square&logo=github-actions)](https://github.com/Michaelo7710/greenpay-showcase)
 [![Automated Tests](https://img.shields.io/badge/Tests-454%2F454_Passed-047857?style=flat-square&logo=jest)](https://github.com/Michaelo7710/greenpay-showcase)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict_Zero_Errors-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![A11y Compliance](https://img.shields.io/badge/WCAG-2.1_AA_Compliant-8B5CF6?style=flat-square)](https://www.w3.org/WAI/WCAG21/quickref/)
-[![Proprietary Core](https://img.shields.io/badge/Core_Engine-Proprietary_Protected-D97706?style=flat-square&logo=lock)](docs/RECRUITER_ACCESS_SOP.md)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
 <p align="center">
-  <b>Solusi Dompet Digital Enterprise Berstandar Rekayasa Silicon Valley</b><br/>
-  <i>Clean Architecture Monorepo, Double-Entry ACID Ledger, Idempotency Anti-Double-Spending, dan Kepatuhan UU PDP No. 27/2022</i>
+  <b>Studi Kasus Desain &amp; Rekayasa Aplikasi Dompet Digital Mandiri</b><br/>
+  <i>Clean Architecture, SQLite Offline-First, Simulasi Pembayaran Sandbox, dan 454 Automated Tests</i>
 </p>
 
-[🚀 Live Demo & Interactive Preview](https://github.com/Michaelo7710/personal-portfolio-ai) • [📐 System Architecture](#-arsitektur-sistem--aliran-data-enterprise) • [🛡️ STAR Engineering Studies](#-tantangan-rekayasa-kunci-star-method) • [🤝 Request Code Review Access](docs/RECRUITER_ACCESS_SOP.md)
+[📐 Arsitektur Sistem](#-arsitektur-sistem--aliran-data-enterprise) • [🛡️ Studi Kasus STAR](#-tantangan-rekayasa-kunci-star-method) • [💻 Repositori Proyek](https://github.com/Michaelo7710/e-wallet-monorepo)
 
 </div>
 
 ---
 
-## ⚡ Ringkasan Eksekutif (The 6-Second Recruiter Hook)
+## ⚡ Ringkasan Proyek
 
-> **Untuk Technical Recruiter, Engineering Manager, dan CTO:**  
-> Repositori ini merupakan **Public Architectural Showcase (The Showroom)** untuk sistem **GreenPay E-Wallet**, yang dibangun dengan prinsip pemisahan ketat *Showcase Deep-Dive Architecture* ([ADR-015](https://github.com/Michaelo7710/greenpay-showcase)). Seluruh logika transaksi moneter, 454 automated unit tests, dan arsitektur perbankan ganda diverifikasi secara nyata tanpa mengekspos kode mentah proprietary ke ranah publik.
+> **Tentang Etalase Ini:**  
+> Repositori ini merupakan **Public Architectural Showcase** untuk aplikasi **GreenPay E-Wallet**, yang menyajikan dokumentasi arsitektur antarmuka, diagram aliran data, dan studi kasus penulisan 454 automated unit &amp; integration tests untuk melatih pemahaman sistem mobile finansial.
 
-### Metrik Kunci Kesiapan Produksi:
-- 🏛️ **Arsitektur:** Clean Architecture Monorepo — Mobile Frontend (*React Native Expo SDK 51, TypeScript Strict, Zero-Any, Memoized Layouts*) + Backend (*Modular Monolith Node.js/Express, MongoDB 6.0 ACID Transactions, Idempotency Engine*).
-- 🎨 **Desain & Aksesibilitas:** Bahasa visual perbankan privat *"Emerald Elite"*, Server-Driven UI (SDUI), rasio kontras WCAG 2.1 AA (≥ 5.2:1), dan optimasi cold-start lag hingga 87%.
-- 🛡️ **FinTech Grade Security & Compliance:** Dual-token lifecycle (stateless RAM + encrypted keychain), 2FA TOTP CSPRNG mandiri, mitigasi *double spending* via *In-Flight In-Memory Locking*, sanitasi data pribadi UU PDP (*screen & native share masking*), serta resolusi konflik GDPR Art. 17 vs retensi 5AMLD.
-- 🧪 **Kualitas & Observabilitas:** 100% CI pipeline passing, **454 automated test suites** (17 backend suites / 160 tests + 32 frontend suites / 294 tests lulus hijau 100%), dan 0 kompilasi warning.
+### Metrik Kunci Pembelajaran Proyek:
+- 🏛️ **Arsitektur:** Clean Architecture Monorepo — Mobile Frontend (*React Native Expo SDK 51, TypeScript Strict*) + Backend (*Node.js/Express, MongoDB, SQLite Offline-First*).
+- 🎨 **Desain & Aksesibilitas:** Desain bernuansa hijau zamrud, komponen antarmuka terstruktur, dan rasio kontras WCAG 2.1 AA.
+- 🛡️ **Fitur Keamanan Pengguna:** Autentikasi biometrik, verifikasi kode TOTP 2FA, proteksi tangkapan layar sensitif (*expo-screen-capture*), dan penyembunyian digit rekening.
+- 🧪 **Kualitas & Pengujian:** 100% CI pipeline passing, **454 automated tests** Jest (17 backend suites / 160 tests + 32 frontend suites / 294 tests) berstatus lulus hijau.
 
 ---
 
