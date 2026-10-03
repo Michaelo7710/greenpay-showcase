@@ -202,20 +202,22 @@ export interface IdempotentExecutionContract<TPayload, TResponse> {
 
 ---
 
-## ⚖️ Hak Cipta & Protokol Akses Peninjau (SOP Recruiter Access)
+## 🤝 Akses Peninjauan Kode & Kolaborasi
 
-Seluruh rancangan arsitektur, diagram sistem, dan spesifikasi antarmuka di repositori ini dilindungi di bawah hak cipta **Proprietary — All Rights Reserved (c) 2026 Muhammad Luthfi**.
+Seluruh arsitektur antarmuka, komponen, diagram sistem, dan kontrak data diekspos secara terbuka di etalase ini.
 
-### Akses Peninjauan Kode Inti (Private Core Repository):
-Bagi **Hiring Manager, Principal Engineer, VP of Engineering, atau CTO** dari perusahaan terverifikasi yang ingin melakukan peninjauan mendalam (*deep-dive code review*) terhadap repositori privat *The Forge* (`Michaelo7710/e-wallet-monorepo`), kami menyediakan hak kolaborator *read-only* selama maksimal **7 hari kalender**.
-
-👉 **Tata Cara Permohonan Akses:**  
-Silakan baca panduan resmi di [**`docs/RECRUITER_ACCESS_SOP.md`**](docs/RECRUITER_ACCESS_SOP.md) atau hubungi langsung via email ke `mikailnurwahid01@gmail.com`.
+Bagi rekan-rekan pengembang, tech lead, atau tim rekruter yang tertarik meninjau implementasi kode sumber penuh di repositori privat [`Michaelo7710/e-wallet-monorepo`](https://github.com/Michaelo7710/e-wallet-monorepo), silakan hubungi langsung untuk diskusi santai atau peninjauan kode:
+- 💬 **WhatsApp:** [Chat Langsung](https://wa.me/6281234567890)
+- 📧 **Email:** [mikailnurwahid01@gmail.com](mailto:mikailnurwahid01@gmail.com)
 
 ---
 
 <div align="center">
-  <b>Muhammad Luthfi</b><br/>
-  <i>Senior Fullstack Mobile & AI Systems Engineer</i><br/>
-  🐙 <a href="https://github.com/Michaelo7710">@Michaelo7710</a> • 🌐 <a href="https://github.com/Michaelo7710/personal-portfolio-ai">Interactive Portfolio Hub</a>
+
+**Mikail Nurwahid — Junior Mobile Developer**  
+*Proyek mandiri untuk mengasah implementasi Clean Architecture, mitigasi race condition saldo, dan persistensi offline-first SQLite pada React Native.*
+
+[![GitHub](https://img.shields.io/badge/GitHub-Michaelo7710-181717?logo=github)](https://github.com/Michaelo7710)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat_Langsung-25D366?logo=whatsapp)](https://wa.me/6281234567890)
+
 </div>
